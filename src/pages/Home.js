@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 
+import homeStyles from "../modules/home.module.scss";
+
 class Home extends Component {
   render() {
     return (
-      <div>
-        <h1>Pearl-Collective</h1>
+      <div className={homeStyles.titleContainer}>
+        <div>
+          <h1 className={homeStyles.title}>PEARL COLLECTIVE</h1>
+        </div>
       </div>
     );
   }
