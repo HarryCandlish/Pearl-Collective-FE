@@ -2,10 +2,10 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 7vh;
-  max-height: 7vh;
+  min-height: 10vh;
+  max-height: 10vh;
 
-  background-color: #e4decd;
+  background-color: #f1f0ee;
 }
 
 .navLinks {
@@ -16,18 +16,18 @@ nav {
   margin: 5px;
   position: absolute;
   left: 35%;
-  top: -1px;
+  top: 15px;
 }
 
 .links {
   text-transform: uppercase;
   font-size: 14px;
-  color: #3a4660;
+  color: black;
   text-decoration: none;
 }
 
 .links:hover {
-  color: #ed8a63;
+  color: #b11a21;
 }
 
 li {

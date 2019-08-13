@@ -4,6 +4,7 @@ import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Nav from "./layout/Nav";
 import Team from "./pages/Team";
+import Footer from "./layout/Footer";
 
 import { fetchTeam } from "./actions/teamAction";
 import { connect } from "react-redux";
@@ -20,6 +21,7 @@ export class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/team" component={Team} />
         </Router>
+        <Footer />
       </div>
     );
   }
