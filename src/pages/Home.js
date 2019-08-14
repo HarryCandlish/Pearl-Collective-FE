@@ -21,10 +21,10 @@ class Home extends Component {
             <img className={homeStyles.workImage} alt="alt" src={business} />
           </div>
           <div className={homeStyles.overlay}>
-            <h1 className={homeStyles.gridTitle}>
+            <h1 className={homeStyles.gridTitleOne}>
               HOW WE CAN HELP YOUR BUSINESS.
             </h1>
-            <p className={homeStyles.gridParagraph}>
+            <p className={homeStyles.gridParagraphOne}>
               If you own, manage a small-business, non-profit, or social
               enterprise, we'll set you up with junior developers and designers
               willing to volunteer their services and skills.
@@ -36,10 +36,10 @@ class Home extends Component {
               <img className={homeStyles.teamImage} alt="alt" src={people} />
             </div>
             <div className={homeStyles.overlayTwo}>
-              <h1 className={homeStyles.gridTitle}>
+              <h1 className={homeStyles.gridTitleTwo}>
                 HOW WE CAN HELP YOU FIND EMPLOYMENT.
               </h1>
-              <p className={homeStyles.gridParagraph}>
+              <p className={homeStyles.gridParagraphTwo}>
                 Our goal is to simulate experience to better prepare juniors for
                 finding employment. You'll meet with clients, design, promote
                 web presence and develop websites for companies in Wellington.

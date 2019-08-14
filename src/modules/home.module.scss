@@ -103,18 +103,18 @@
 }
 
 .buttonTwo:hover {
-  border-color: #fc4445;
-  color: #fc4445;
+  border-color: #b11a21;
+  color: #b11a21;
 }
 
 .buttonOne:hover {
-  border-color: #fc4445;
-  color: #fc4445;
+  border-color: #b11a21;
+  color: #b11a21;
 }
 
 .buttonThree:hover {
-  border-color: #fc4445;
-  color: #fc4445;
+  border-color: #b11a21;
+  color: #b11a21;
 }
 
 .buttonOne {
@@ -152,11 +152,11 @@
   margin: 0;
   grid-template-areas: "mainone maintwo";
   text-align: center;
-  background-color: #368cbf;
+  background-color: #f5f5f5;
 }
 
 .itemTwo {
-  background-color: #e0474c;
+  background-color: #b11a21;
   opacity: 1;
 }
 
@@ -189,11 +189,21 @@
 }
 
 .gridContainerTwo {
-  background-color: #e0474c;
+  background-color: #262626;
 }
 
-.gridTitle {
+.gridTitleTwo {
   color: white;
+  margin: 10px;
+  position: relative;
+  top: 175px;
+  font-size: 35px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+.gridTitleOne {
+  color: black;
   margin: 10px;
   position: relative;
   top: 175px;
@@ -213,32 +223,43 @@
   cursor: pointer;
   border: 3px white solid;
   padding: 8px;
+  font-weight: 1000;
 }
 
 .gridButtonTwo:hover {
-  border-color: #00303f;
-  color: #00303f;
+  border-color: #b11a21;
+  color: #b11a21;
 }
 
 .gridButtonOne:hover {
-  border-color: #e0474c;
-  color: #e0474c;
+  border-color: #b11a21;
+  color: #b11a21;
 }
 
 .gridButtonOne {
   border: none;
-  color: white;
+  color: black;
   margin: 10px;
   position: relative;
   top: 220px;
   font-size: 20px;
   background: none;
   cursor: pointer;
-  border: 3px white solid;
+  border: 3px black solid;
   padding: 8px;
+  font-weight: 1000;
 }
 
-.gridParagraph {
+.gridParagraphOne {
+  position: relative;
+  top: 180px;
+  margin: 15px;
+  color: black;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.gridParagraphTwo {
   position: relative;
   top: 180px;
   margin: 15px;
