@@ -7,7 +7,7 @@ class Nav extends Component {
     return (
       <div>
         <nav>
-          <ul className={navStyles.navLinks}>
+          {/* <ul className={navStyles.navLinks}>
             <a className={navStyles.links} href="#/projects">
               <li>
                 <h4>Projects</h4>
@@ -32,7 +32,7 @@ class Nav extends Component {
                 <h4>Home</h4>
               </li>
             </a>
-          </ul>
+          </ul> */}
         </nav>
       </div>
     );
