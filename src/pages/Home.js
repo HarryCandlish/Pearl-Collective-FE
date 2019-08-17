@@ -8,6 +8,10 @@ import website from "../images/website.JPG";
 
 import practice from "../images/practice.png";
 import projects from "../images/projects.png";
+import tom from "../images/profile-1.jpg";
+import sarah from "../images/sarah.jpg";
+import kate from "../images/kate.jpg";
+import bob from "../images/bob.jpg";
 
 class Home extends Component {
   render() {
@@ -85,6 +89,52 @@ class Home extends Component {
               alt="practice"
             />
             <button className={homeStyles.flexButtonTwo}>PRACTICE</button>
+          </div>
+        </div>
+        <div className={homeStyles.personalContainer}>
+          <div className={homeStyles.personalFlexbox}>
+            <div className={homeStyles.profileContainer}>
+              <img className={homeStyles.tom} src={tom} alt="tom" />
+              <h1 className={homeStyles.tomFlexTitle}>Tom Golf</h1>
+              <p className={homeStyles.tomEmail}>tomgolf@tomgolf.com</p>
+            </div>
+            <p className={homeStyles.tomPersonalFlexParagraph}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore
+            </p>
+          </div>
+          <div className={homeStyles.personalFlexbox}>
+            <div className={homeStyles.profileContainer}>
+              <img className={homeStyles.tom} src={bob} alt="bob" />
+              <h1 className={homeStyles.bobFlexTitle}>Bob Myers</h1>
+              <p className={homeStyles.tomEmail}>bobmyers@bobmyers.com</p>
+            </div>
+            <p className={homeStyles.tomPersonalFlexParagraph}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore
+            </p>
+          </div>
+          <div className={homeStyles.personalFlexbox}>
+            <div className={homeStyles.profileContainer}>
+              <img className={homeStyles.tom} src={sarah} alt="sarah" />
+              <h1 className={homeStyles.sarahFlexTitle}>Sarah Stuart</h1>
+              <p className={homeStyles.tomEmail}>sarahstuart@sarahstuart.com</p>
+            </div>
+            <p className={homeStyles.tomPersonalFlexParagraph}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>
+          </div>
+          <div className={homeStyles.personalFlexbox}>
+            <div className={homeStyles.profileContainer}>
+              <img className={homeStyles.tom} src={kate} alt="kate" />
+              <h1 className={homeStyles.kateFlexTitle}>Kate Wong</h1>
+              <p className={homeStyles.tomEmail}>katewong@katewong.com</p>
+            </div>
+            <p className={homeStyles.tomPersonalFlexParagraph}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore
+            </p>
           </div>
         </div>
       </div>
